@@ -1,13 +1,13 @@
 .quiz-container{
   border: 1px solid gray;
   height: 350px;
-  width: 350px;
+  width: 320px;
   background-color: blanchedalmond;
   margin: 30px;
   border-radius: 10px;
 }
 .quiz-img img{
-    width: 350px;
+    width: 320px;
     height: 250px;
 }
 .quiz-info{

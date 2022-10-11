@@ -2,10 +2,10 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './components/Main/Main';
 import Home from './components/Home/Home';
-import Topics from './components/Topics/Topics';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import QuizData from './components/Main/QuizData/QuizData';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
 
@@ -29,10 +29,6 @@ function App() {
       element: <Home></Home>
     },
     {
-      path: '/topics',
-      element: <Topics></Topics>
-    },
-    {
       path: '/statistics',
       element: <Statistics></Statistics>
     },
@@ -50,6 +46,10 @@ function App() {
       element: <QuizData></QuizData>
     }
       ]
+    },
+    {
+      path:'*',
+      element: <NotFound></NotFound>
     }
   ])
 

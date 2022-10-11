@@ -10,3 +10,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.view{
+    height: 30px;
+    width: 30px;
+}
