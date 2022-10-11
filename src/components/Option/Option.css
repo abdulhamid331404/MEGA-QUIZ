@@ -1,13 +1,15 @@
 .singleOption{
     margin: 10px;
-    height: 70px;
-    width: 200px;
+    height: 80px;
+    width: 220px;
     border: 1px solid grey;
     padding: 5px;
     display: flex;
     align-items: center;
     text-align: center;
+    border-radius: 2px;
+    background-color: white;
 }
 .singleOption:hover{
-    background-color: rgb(241, 245, 248);
+    background-color: #d8dadb;
 }

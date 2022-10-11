@@ -11,7 +11,7 @@ const Question = ({questions}) => {
     }
     return (
         <div className='question-part'>
-            <div><h3>{question}</h3> 
+            <div><h3>Quiz: {question} </h3> 
             <div onClick={viewAnswer}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="view">
   <path d="M12 15a3 3 0 100-6 3 3 0 000 6z" />

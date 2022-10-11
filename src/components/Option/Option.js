@@ -6,7 +6,7 @@ const Option = ({option}) => {
     return (
         <div>
          <Form  className='singleOption'>
-            <input type="radio" name="" id="qs" />
+            <input type="radio"  id="qs" />
             <label for='qs'>{option}</label>
          </Form>
         </div>
