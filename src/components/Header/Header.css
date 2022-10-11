@@ -1,5 +1,16 @@
-.header-compo{
-    width: 100%;
-    height: 200px;
-    background-color: aquamarine;
+.header-banner img{
+    width: 700px;
+    height: 300px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+.header-info{
+    text-align: center;
+    margin: 0 auto;
+    background-color: cadetblue;
 }

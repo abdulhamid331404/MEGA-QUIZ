@@ -8,7 +8,6 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-                {<h1>This is home: {quizs.data.length}</h1>}
                <div className='quiz-compo'>
                {
                     quizs.data.map(quiz =><Quiz
