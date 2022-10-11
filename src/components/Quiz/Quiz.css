@@ -14,4 +14,20 @@
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    align-items: center;
+}
+.quiz-btn{
+  border-radius: 5px;
+  height: 55px;
+  width: 100px;
+}
+.quiz-btn:hover{
+  background-color: blue;
+  color: white;
+}
+.quiz-btn a{
+  text-decoration: none;
+}
+.quiz-btn a:hover{
+  color: white;
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Header from '../Header/Header'
 import Quiz from '../Quiz/Quiz';
@@ -6,8 +5,6 @@ import './Home.css'
 
 const Home = () => {
     const quizs = useLoaderData();
-    // const quiz = quizs.data;
-    // console.log(quizs.data);
     return (
         <div>
             <Header></Header>

@@ -1,0 +1,13 @@
+.singleOption{
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid grey;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.singleOption:hover{
+    background-color: rgb(241, 245, 248);
+}
