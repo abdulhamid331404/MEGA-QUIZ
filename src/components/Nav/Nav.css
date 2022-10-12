@@ -8,7 +8,7 @@
 }
 .nav-logo{
     font-size: 25px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .nav-link a{
     text-decoration:  none;
@@ -22,13 +22,13 @@
 }
 @media screen and (max-width:768px) {
     .nav-logo{
-        font-size: 13px;
+        font-size: 10px;
         display: inline;
     }
     .nav-link a{
         text-decoration:  none;
         color: white;
         margin: 10px;
-        font-size: 20px;
+        font-size: 15px;
     }
 }

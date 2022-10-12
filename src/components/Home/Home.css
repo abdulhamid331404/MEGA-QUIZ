@@ -10,11 +10,11 @@
         gap: 10px;
     }
 }
-@media screen and  (max-width: 992px) and (min-width: 769px) {
+@media screen and  (max-width: 992px) and (min-width: 768px) {
     .quiz-compo{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        margin-left: 25px;
+        margin-left: 5px;
     }
 }

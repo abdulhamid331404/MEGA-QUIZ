@@ -9,7 +9,7 @@ const Statistics = () => {
     return (
         <div className='responsive-container'>
             <h1>Total Quiz Chart</h1>
-            <ResponsiveContainer  width="100%" height={300} >
+            <ResponsiveContainer  width="90%" height={300} >
                 
             <LineChart className='chart-container' data={data}>
             <Line type="monotone" dataKey="total" stroke="#8884d8" strokeWidth={2} />

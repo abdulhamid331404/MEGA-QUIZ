@@ -31,3 +31,13 @@
 .quiz-btn a:hover{
   color: white;
 }
+@media screen and (max-width:768px) {
+  .quiz-container{
+    border: 1px solid gray;
+    height: 350px;
+    width: 320px;
+    background-color: blanchedalmond;
+    margin: 30px;
+    border-radius: 10px;
+  }
+}

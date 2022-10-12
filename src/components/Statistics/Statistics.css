@@ -8,5 +8,6 @@
     .chart-container{
         background-color: darkgray;
         margin: 0 auto;
+        margin-left: 0px;
     }
 }
