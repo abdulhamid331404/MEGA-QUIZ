@@ -1,3 +1,4 @@
+import { getValue } from '@testing-library/user-event/dist/utils';
 import React from 'react';
 import { Form } from 'react-router-dom';
 import './Option.css'
@@ -5,9 +6,9 @@ import './Option.css'
 const Option = ({option}) => {
     return (
         <div>
-         <Form  className='singleOption'>
+         <Form className='singleOption'>
             <input type="radio"  id="qs" />
-            <label for='qs'>{option}</label>
+            <label  form="qs">{option}</label>
          </Form>
         </div>
     );
