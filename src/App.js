@@ -39,7 +39,6 @@ function App() {
     {
       path: '/home/:homeId',
       loader: async ({params})=>{
-        // console.log(params.homeId);
         return fetch (`https://openapi.programming-hero.com/api/quiz/${params.homeId}`)
 
       },
