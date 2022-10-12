@@ -4,3 +4,9 @@
     margin: 0 auto;
     margin-left: 20px;
 }
+@media screen and (max-width:768px) {
+    .chart-container{
+        background-color: darkgray;
+        margin: 0 auto;
+    }
+}

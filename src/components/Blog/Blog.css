@@ -3,10 +3,8 @@
 }
 .blog-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr
-    );
-    gap: 20px
-    ;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 .single-question{
     text-align: justify;
@@ -20,4 +18,14 @@
     padding: 10px;
     margin-bottom: 20px;
     background-color: aliceblue;
+}
+@media screen and (max-width:768px) {
+    .blog-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .single-question h1{
+        font-size: 20px;
+    }
 }
