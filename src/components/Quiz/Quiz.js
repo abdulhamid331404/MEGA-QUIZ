@@ -11,7 +11,7 @@ const Quiz = ({quiz, handleStartQuiz}) => {
            </div>
            <div className='quiz-info'>
             <h3>{name}</h3>
-            <p>{total}</p>
+            <p><small>Total quiz: {total}</small></p>
             <Link to={`/home/${id}`}>
             <button className='quiz-btn'>Start Quiz</button></Link>
            </div>
