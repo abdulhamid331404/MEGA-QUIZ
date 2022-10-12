@@ -1,0 +1,23 @@
+.blog-compo{
+    background-color: beige;
+}
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr
+    );
+    gap: 20px
+    ;
+}
+.single-question{
+    text-align: justify;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+}
+.react-ref{
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
