@@ -14,3 +14,13 @@
     height: 30px;
     width: 30px;
 }
+@media screen and (max-width:768px) {
+    .question-part{
+        width: 300px;
+        border: 1px solid gray;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: azure;
+    }
+}

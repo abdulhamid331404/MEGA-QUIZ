@@ -13,3 +13,40 @@
 .singleOption:hover{
     background-color: #d8dadb;
 }
+@media screen and (max-width:768px) {
+    .singleOption{
+        margin: 5px;
+        height: 40px;
+        width: 120px;
+        border: 1px solid grey;
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 1px;
+        background-color: white;
+    }
+    .options{
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .singleOption{
+        margin: 5px;
+        height: 80px;
+        width: 180px;
+        border: 1px solid grey;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 1px;
+        background-color: white;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    .options{
+        font-size: 10px;
+    }
+}

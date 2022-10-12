@@ -20,3 +20,15 @@
     background-color:bisque;
     color: black;
 }
+@media screen and (max-width:768px) {
+    .nav-logo{
+        font-size: 13px;
+        display: inline;
+    }
+    .nav-link a{
+        text-decoration:  none;
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+    }
+}
